@@ -1,6 +1,6 @@
-#### <font face="微软雅黑 Light" color="red" size="5">集体目光向我看齐！</font>
+#### <font face="微软雅黑 Light" color="red" size="10">集体目光向我看齐！</font>
 -----------------------------------------------------------------------------
-#### <font face="微软雅黑 Light" color="green" size="5">我宣布一个事</font>
+#### <font face="微软雅黑 Light" color="green" size="10">我宣布一个事</font>
 -----------------------------------------------------------------------------
 ![我是傻逼]([https://218-92-231-2.d.cjjd15.com/download-cdn.123pan.cn/123-690/c9c5b206/1814042414-0/c9c5b2068628021d2cfb5d408cf01ab2?v=5&t=1683197863&s=16831978639b553af01e606e0ab87202c3c77ee8e6&r=GYLGCD&filename=%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp&x-mf-biz-cid=64d7891a-c23d-4c59-bee6-c39938fa57df-6eaa77&auto_redirect=0&xmfcid=2a7335ed-8e5a-4a17-adec-8507a2b4833a-cd8a62355-4521-45](https://tse1-mm.cn.bing.net/th/id/R-C.982317c616467c0908d34a1f8d0b82f4?rik=DHZDL1einvtZ0A&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f51c56b0e38b1094f5a1c810f58d237e8b51e7ca6.jpg&ehk=FsxD0QKfqMBYLgFrE3Db6%2bKSzleIhDUcKMjNVXnW8QE%3d&risl=&pid=ImgRaw&r=0))
 
