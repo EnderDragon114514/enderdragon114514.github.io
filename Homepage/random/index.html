@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>随机数生成器</title>
+</head>
+<body>
+    <h1>区间随机数生成器</h1>
+    <p>开始数值:</p>
+    <input type="text" id="start" value=1>
+    <p>终止数值:</p>
+    <input type="text" id="end" value=50>
+    <br>
+    <button onclick="startRandom()">开始随机</button>
+    <br>
+    <p>输出结果:</p>
+    <input type="text" id="randomNumber" readonly>
+
+    <script>
+        function startRandom() 
+        {
+            var start = document.getElementById("start").value;
+            var end = document.getElementById("end").value;
+            var randomNumber = Math.floor(Math.random() * (end - start + 1) + start);
+            document.getElementById("randomNumber").value = randomNumber;
+        }
+    </script>
+</body>
+</html>
