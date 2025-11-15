@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <form id="loginForm" action="index.html">
+        <label for="password">Please Enter Password:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var password = document.getElementById("password").value;
+            window.location.href = 'Admin\\Pwd=' + password + '\\index.html';
+        });
+    </script>
+
+    <a href="reg.html">Register</a>
+</body>
+</html>
