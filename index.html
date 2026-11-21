@@ -1,22 +1,158 @@
 <html>
     <head>
-        <title>Lithium Project v1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>好van♂的</title>
+        <style>
+            /* Reset default margins and paddings */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Background styling */
+            body {
+                background-image: url('http://lithiumproj.ink/rc.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                min-height: 100vh;
+                position: relative;
+            }
+
+            /* Overlay for main content */
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.3);
+                z-index: -1;
+            }
+
+            /* Custom button styling */
+            .custom-button {
+                display: inline-block;
+                margin: 10px 10px;
+                font-size: 20px;
+                color: white;
+                background-color: rgba(32, 147, 255, 0.85);
+                border: none;
+                border-radius: 8px;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-family: 'Heiti SC', sans-serif;
+                text-decoration: none;
+                text-align: center;
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            .custom-button:hover {
+                background-color: rgba(0, 68, 255, 0.9);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            /* Link styling */
+            a {
+                display: inline-block;
+                margin: 10px 10px;
+                font-size: 20px;
+                color: white;
+                background-color: rgba(32, 147, 255, 0.85);
+                border: none;
+                border-radius: 8px;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-family: 'Heiti SC', sans-serif;
+                text-decoration: none;
+                text-align: center;
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            a:hover {
+                background-color: rgba(0, 68, 255, 0.9);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            /* Responsive design */
+            @media (max-width: 768px) {
+                .custom-button, a {
+                    font-size: 18px;
+                    padding: 8px 15px;
+                }
+                
+                h1 {
+                    font-size: 1.5em;
+                }
+                
+                h3 {
+                    font-size: 1.1em;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .custom-button, a {
+                    font-size: 16px;
+                    padding: 6px 12px;
+                    margin: 5px;
+                }
+            }
+
+            /* Content styling */
+            body {
+                padding: 20px;
+                font-family: 'Heiti SC', sans-serif;
+            }
+
+            h1, h2, h3, h4 {
+                margin-bottom: 15px;
+                color: #333;
+            }
+
+            h1 {
+                padding-top: 20px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            center {
+                margin: 20px 0;
+            }
+
+            hr {
+                margin: 30px 0;
+                border: none;
+                height: 2px;
+                background: linear-gradient(to right, transparent, rgba(32, 147, 255, 0.5), transparent);
+            }
+
+            /* Main content box */
+            h3 {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: rgba(255, 255, 255, 0.7);
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+        </style>
     </head>
     <body>
-        <h1>Lithium Project V1</h1>
-        <h4>——是的，这是V1版本的网页</h1>
+        <center><h1>身份验证</h1></center>
         <hr>
-        <h2>公告：由于GithubPages异常，请<a href="v1/Homepage/index.html">点击这里</a>跳转原主页</h3></h2>
-        <hr>
-        <h3>此网站的作用：</h3>
-        <h3>1. 放置一些完全不知道有什么用的杂七杂八的东西</h3>
-        <h3>2. 放置V2服务器塞不下的东西</h3>
-        <h3>3. 纪念V1网页<del>(顺便看看这个大傻逼站长曾经干过哪些蠢事)</del></h3>
-        <h6>——上面这句话括号里的东西是Lithium4142写的<del>打死这个2b</del></h6>
-        <h6>VSCode:666还吵起架来了</h6>
-        <hr>
-        <h3>V2网站:<a href="http://lithiumproj.ink">lithiumproj.ink</a></h3>
+        <h3>请确认你的年龄:</h3>
+        <button class="custom-button" onclick="alert('错误:权限不足')">未满18岁</button>
+        <a class="custom-button" href="zhapian.mp4">已满18岁</a>
+        <a class="custom-button" href="main.html">我不知道</a>
     </body>
-
 </html>
-
